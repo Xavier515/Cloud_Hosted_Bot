@@ -34,7 +34,4 @@ else if(command == 'events')
 });
 
 
-
-
-
-client.login('process.env.token');
+client.login(process.env.token);
