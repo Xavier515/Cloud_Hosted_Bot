@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const prefix ='!';
-var events = "1st General Meeting";
+//var events = "1st General Meeting";
 
 client.once('ready',() => {
     console.log('task_bot is online!');
@@ -27,8 +27,8 @@ else if(command == 'events')
 {
     if (events == ' ') 
     message.channel.send('No events for now💤');
-    else 
-    message.channel.send(events);
+    //else 
+    //message.channel.send(events);
 }
 
 });
