@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 
-const client = new Discord.Client();
+const bot = new Discord.Client();
 
 
-client.once('ready',() => {
+bot.on('ready', function (){
     console.log('task_bot is online!');
 });
 
 
-client.login(process.env.token);
+bot.login(process.env.token);
